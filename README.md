@@ -147,7 +147,7 @@ cat("Robust S-Index:", attr(result, "robust_s_index"), "\n")
 If you use this package in your research, please cite:
 
 ```
-Andresen, M.A. (2026). sppt.aggregated.data: Spatial Point Pattern Test for Aggregated Data. R package version (1.0). URL: https://github.com/martin-a-andresen/sppt.aggregated.data
+Andresen, M.A. (2026). sppt.aggregated.data: Spatial Point Pattern Test for Aggregated Data. R package version (0.1.0). URL: https://github.com/martin-a-andresen/sppt.aggregated.data
 ```
 
 ## License
