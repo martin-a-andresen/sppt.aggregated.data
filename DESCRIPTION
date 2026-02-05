@@ -1,0 +1,31 @@
+Package: sppt.aggregated.data
+Type: Package
+Title: Spatial Pattern Point Test for Aggregated Data
+Version: 0.1.0
+Authors@R: c(
+    person("Martin", "Andresen", email = "martin.andresen@gmail.com", role = c("aut", "cre")),
+    person("Contributor", "Name", role = "ctb"))
+Description: Performs spatial pattern point tests on aggregated count data using 
+    bootstrap resampling. Compares spatial distributions between variables and 
+    calculates S-Index metrics to quantify spatial pattern overlap. Supports 
+    visualization and export of results in multiple formats.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    Matrix,
+    dplyr,
+    tidyr,
+    rlang,
+    sf,
+    stats
+Suggests:
+    knitr (>= 1.40),
+    rmarkdown (>= 2.20),
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+URL: https://github.com/martin-a-andresen/sppt.aggregated.data
+BugReports: https://github.com/martin-a-andresen/sppt.aggregated.data/issues
