@@ -1,6 +1,6 @@
 ---
 title: "Introduction to sppt.aggregated.data"
-author: "Your Name"
+author: "Martin A. Andresen"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
